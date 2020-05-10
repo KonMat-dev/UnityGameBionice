@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 2d0e5d63f98d0fd4ea4f60c83fb0df83
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: flaga_0
+    21300002: flaga_1
+    21300004: flaga_2
+    21300006: flaga_3
+    21300008: flaga_4
+    21300010: flaga_5
+    21300012: flaga_6
+    21300014: flaga_7
+    21300016: flaga_8
+    21300018: flaga_9
+    21300020: flaga_10
+    21300022: flaga_11
+    21300024: flaga_12
+    21300026: flaga_13
+    21300028: flaga_14
+    21300030: flaga_15
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.49281827, y: 0.50410384}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flaga_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 322
+        width: 85
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3027a822e34479441843263e2db57e8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 322
+        width: 103
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b12b239fcb4f444c81ec592bb4cd062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 322
+        width: 120
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a3f1d983ee084aa9d7a8636f7b82f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 322
+        width: 118
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e932a1a236d5d64d93d5e6b68ae23d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_4
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 322
+        width: 120
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdd9e27e7927e947a2f369e30c49a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 322
+        width: 120
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f842b5b7dbf2924aaa39355a741bbd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_6
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 322
+        width: 118
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d420c52c08f06f4c82ac6be25cc50f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_7
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 322
+        width: 120
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7660f8e74d494db243859148d7b4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 84
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c5b8e11bef26240adb0583da19b89a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 4
+        width: 104
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b5aee271cb45b4ab634ad66f6e8777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 4
+        width: 120
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea94cd545dfd4469662e9b19811851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 4
+        width: 118
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1282b9a8caf38499f1132c85e1344f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_12
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 4
+        width: 120
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7d3af921a240b489a2ac1fe0851cf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_13
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 4
+        width: 118
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b257d77b2bc554f8b8ee32636457dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_14
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 4
+        width: 118
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9052542feea717c41ba4c4809bb3393c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flaga_15
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 4
+        width: 119
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcbf240b9b6dd84fbeb8fd4bd328d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -563, y: -2}
+      - {x: -619, y: -2}
+      - {x: -619, y: -314}
+      - {x: -576, y: -314}
+      - {x: -552, y: -263}
+      - {x: -531, y: -170}
+      - {x: -531, y: -66}
+    - - {x: -449, y: -2}
+      - {x: -462, y: -12}
+      - {x: -462, y: -314}
+      - {x: -426, y: -314}
+      - {x: -354, y: -258}
+      - {x: -354, y: -5}
+      - {x: -366, y: -2}
+    - - {x: -182, y: -18}
+      - {x: -228, y: -2}
+      - {x: -299, y: -2}
+      - {x: -306, y: -47}
+      - {x: -306, y: -314}
+      - {x: -264, y: -314}
+      - {x: -199, y: -233}
+      - {x: -196, y: -227}
+      - {x: -182, y: -84}
+    - - {x: -22, y: -121}
+      - {x: -22, y: -8}
+      - {x: -32, y: -2}
+      - {x: -135, y: -2}
+      - {x: -144, y: -18}
+      - {x: -144, y: -314}
+      - {x: -107, y: -314}
+      - {x: -106, y: -311}
+      - {x: -36, y: -234}
+      - {x: -33, y: -217}
+    - - {x: 132, y: -2}
+      - {x: 10, y: -2}
+      - {x: 10, y: -314}
+      - {x: 61, y: -314}
+      - {x: 132, y: -229}
+      - {x: 134, y: -104}
+      - {x: 134, y: -14}
+    - - {x: 172, y: -2}
+      - {x: 170, y: -36}
+      - {x: 170, y: -314}
+      - {x: 258, y: -314}
+      - {x: 292, y: -291}
+      - {x: 292, y: -16}
+      - {x: 233, y: -2}
+    - - {x: 331, y: -5}
+      - {x: 324, y: -106}
+      - {x: 324, y: -278}
+      - {x: 325, y: -309}
+      - {x: 327, y: -314}
+      - {x: 415, y: -314}
+      - {x: 446, y: -200}
+      - {x: 446, y: -5}
+    - - {x: 487, y: -5}
+      - {x: 482, y: -13}
+      - {x: 482, y: -314}
+      - {x: 522, y: -314}
+      - {x: 599, y: -237}
+      - {x: 605, y: -164}
+      - {x: 605, y: -5}
+    - - {x: -607, y: 314}
+      - {x: -619, y: 249}
+      - {x: -619, y: 9}
+      - {x: -617, y: 4}
+      - {x: -560, y: 4}
+      - {x: -530, y: 104}
+      - {x: -530, y: 264}
+      - {x: -560, y: 314}
+    - - {x: -452, y: 314}
+      - {x: -462, y: 256}
+      - {x: -462, y: 4}
+      - {x: -409, y: 4}
+      - {x: -355, y: 35}
+      - {x: -355, y: 283}
+      - {x: -364, y: 314}
+    - - {x: -306, y: 4}
+      - {x: -218, y: 4}
+      - {x: -182, y: 25}
+      - {x: -182, y: 314}
+      - {x: -302, y: 314}
+      - {x: -306, y: 275}
+    - - {x: -39, y: 314}
+      - {x: -139, y: 314}
+      - {x: -144, y: 284}
+      - {x: -144, y: 13}
+      - {x: -143, y: 4}
+      - {x: -109, y: 4}
+      - {x: -24, y: 79}
+      - {x: -22, y: 127}
+      - {x: -22, y: 305}
+    - - {x: 17, y: 314}
+      - {x: 10, y: 297}
+      - {x: 10, y: 4}
+      - {x: 80, y: 4}
+      - {x: 134, y: 39}
+      - {x: 134, y: 314}
+    - - {x: 184, y: 314}
+      - {x: 170, y: 289}
+      - {x: 170, y: 4}
+      - {x: 243, y: 4}
+      - {x: 294, y: 33}
+      - {x: 294, y: 307}
+      - {x: 281, y: 314}
+    - - {x: 334, y: 316}
+      - {x: 324, y: 236}
+      - {x: 324, y: 4}
+      - {x: 367, y: 4}
+      - {x: 446, y: 107}
+      - {x: 446, y: 316}
+    - - {x: 489, y: 314}
+      - {x: 482, y: 300}
+      - {x: 482, y: 4}
+      - {x: 523, y: 4}
+      - {x: 594, y: 90}
+      - {x: 606, y: 130}
+      - {x: 606, y: 314}
+    physicsShape:
+    - - {x: 432, y: -276}
+      - {x: 432, y: -174}
+      - {x: 566, y: -174}
+      - {x: 566, y: -276}
+    bones: []
+    spriteID: 7521137627423034d8e9b53a0e8a3536
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
