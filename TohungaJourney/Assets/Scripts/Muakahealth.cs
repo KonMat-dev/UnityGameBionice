@@ -13,19 +13,21 @@ public class Muakahealth : MonoBehaviour
     void Start()
     {
         currentHealth = enemyHealth;
+ 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currentHealth == 0) MakeDead();
-
+        if (currentHealth == 0)
+        {
+            MakeDead();
+        }
     }
 
     public void AddDamage(float damage)
     {
-        currentHealth -= damage;
-        if (currentHealth <= 0) MakeDead();
+        currentHealth = currentHealth - damage;
     }
 
     void MakeDead()

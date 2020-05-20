@@ -8,10 +8,11 @@ public class PlayerHealth : MonoBehaviour
     public float heroHealth;
     private float currentHealth;
     PlayerControler controlMovment;
-
+    public Restart resetGameMenager;
     // HUD
     public Slider healtSlider;
     public Image damgeScreen;
+    public Text gameOverScreen;
 
     bool damged = false;
     Color damageColor = new Color(255f, 255f, 255f, 0.5f);
@@ -25,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
         // HUD inicializacja
         healtSlider.maxValue = heroHealth;
         healtSlider.value = heroHealth;
+       
 
         damged = false;
 
@@ -56,9 +58,16 @@ public class PlayerHealth : MonoBehaviour
         damged = true;
     }
 
-    void MakeDead()
+   public void MakeDead()
     {
         Instantiate(deathFX, transform.position, transform.rotation);
         Destroy(gameObject);
+        damgeScreen.color = damageColor;
+        healtSlider.value = 0;
+
+        Animator gameOverAnimator = gameOverScreen.GetComponent<Animator>();
+        gameOverAnimator.SetTrigger("GameOver");
+        resetGameMenager.restartGame();
+
     }
 }

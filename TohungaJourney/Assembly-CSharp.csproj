@@ -64,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BulletHit.cs" />
+    <Compile Include="Assets\Scripts\Cleaner.cs" />
+    <Compile Include="Assets\Scripts\counterControler.cs" />
     <Compile Include="Assets\Scripts\DestroyBullet.cs" />
     <Compile Include="Assets\Scripts\enemyDamge.cs" />
     <Compile Include="Assets\Scripts\Enemyhealth.cs" />
@@ -74,9 +76,11 @@
     <Compile Include="Assets\Scripts\nui_rama.cs" />
     <Compile Include="Assets\Scripts\nui_rama_move.cs" />
     <Compile Include="Assets\Scripts\Paralax.cs" />
+    <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerControler.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ProjectileControler.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>B:/NewBionicleStory/TohungaJourney/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

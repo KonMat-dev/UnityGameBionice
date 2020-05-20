@@ -9,7 +9,8 @@ public class BulletHit : MonoBehaviour
     ProjectileControler myPC;
 
 
-    
+
+
     void Awake()
     {
         myPC = GetComponentInParent<ProjectileControler>();
@@ -22,6 +23,7 @@ public class BulletHit : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.gameObject.layer == LayerMask.NameToLayer("ShootAblle")) 
         {
             myPC.RemoveForce();
@@ -29,9 +31,11 @@ public class BulletHit : MonoBehaviour
             Destroy(gameObject);
             if (other.tag == "Enemy") 
                 {
-                
-                Enemyhealth hurtEnemy = other.gameObject.GetComponent<Enemyhealth>();
-                hurtEnemy.AddDamage(damage);    
+
+               Enemyhealth hurtEnemy = other.gameObject.GetComponent<Enemyhealth>();
+               hurtEnemy.AddDamage(damage);
+
+
             }
         }
     }
