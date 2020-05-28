@@ -7,6 +7,9 @@ TagManager:
   - Back
   - Enemy
   - Hero
+  - Checkpoint
+  - GM
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Player
   - bumm
   - ShootAblle
-  - 
+  - efect
   - 
   - 
   - 
@@ -55,4 +58,7 @@ TagManager:
     locked: 0
   - name: bumm
     uniqueID: 1103157981
+    locked: 0
+  - name: efect
+    uniqueID: 1475590457
     locked: 0

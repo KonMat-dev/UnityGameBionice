@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 0faca4e4d7b2c4d479e6e7a3e4f25768
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_0
+    21300002: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_1
+    21300004: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_2
+    21300006: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_3
+    21300008: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_4
+    21300010: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_5
+    21300012: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_6
+    21300014: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_7
+    21300016: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_8
+    21300018: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_9
+    21300020: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_10
+    21300022: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_11
+    21300024: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_12
+    21300026: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_13
+    21300028: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_14
+    21300030: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_15
+    21300032: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_16
+    21300034: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_17
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -31,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
@@ -82,7 +100,367 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 366
+        width: 184
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9ba1796f59e3b438f9658d6cfbf319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 364
+        width: 119
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914a857dc92be054c9a96583e41ae2b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 253
+        width: 45
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dc66f36365be944bbee88be301ecd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 102
+        width: 45
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a5c016d2ea88a4d873e97236565f0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 99
+        width: 45
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2fa44ddcf02dd4fb901dd3b95b6db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 103
+        width: 42
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873d753f1f56a3d44bb4ec4562453e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 318
+        width: 241
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d4d8ce0a961bd49a4f6b0975f28fc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 320
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893e43e65a71fa44e9271bd2812a5f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 306
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb395d8ffa44c7418d89a1f5257e2a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 225
+        width: 150
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882cbe7d56fbf9845bdcd07e46b0cea0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c60f7a198c56f468f942928ee95bf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 10
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3945c567442fb46808892dc520c98d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a02d280714d81469a8125c58942487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 10
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8b9ab9a1919244fabb0fe6a19869b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 10
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f43948c19c84654a9899d7f1d745287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 10
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b272b12be729cc24a93aa7a47685860f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 10
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f93d8a15a0fb9498a05dcb5be08709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log-platforms-wood-log-sprite-11562970014irhnuagnly-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 10
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259f50c6da100874aa51d782dbdc559e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline:
     - - {x: -242, y: 116.5}
       - {x: -242, y: 150.5}

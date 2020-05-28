@@ -15,6 +15,7 @@ public class PlayerControler : MonoBehaviour
     Rigidbody2D rgBody;
     bool dirToRight = true;
 
+
     // Strzelanie 
 
     public Transform gunTip;
@@ -81,5 +82,5 @@ public class PlayerControler : MonoBehaviour
         }
         }
     }
- 
+   
 }

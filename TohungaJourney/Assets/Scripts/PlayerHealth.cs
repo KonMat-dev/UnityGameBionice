@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public GameObject deathFX;
@@ -9,10 +10,14 @@ public class PlayerHealth : MonoBehaviour
     private float currentHealth;
     PlayerControler controlMovment;
     public Restart resetGameMenager;
+
+
+
     // HUD
     public Slider healtSlider;
     public Image damgeScreen;
     public Text gameOverScreen;
+    public Text winGameScreen;
 
     bool damged = false;
     Color damageColor = new Color(255f, 255f, 255f, 0.5f);
@@ -20,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+
         currentHealth = heroHealth;
         controlMovment = GetComponent<PlayerControler>();
 
@@ -35,7 +41,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentHealth <= 0) MakeDead();
+       // if (currentHealth <= 0) MakeDead();
         if (damged == true)
         {
             damgeScreen.color = damageColor;
@@ -50,7 +56,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void AddDamage(float damage)
     {
-       // if (currentHealth <= 0) MakeDead();
+        if (currentHealth <= 0) MakeDead();
         if (damage <= 0) return;
         currentHealth -= damage;
 
@@ -63,11 +69,32 @@ public class PlayerHealth : MonoBehaviour
         Instantiate(deathFX, transform.position, transform.rotation);
         Destroy(gameObject);
         damgeScreen.color = damageColor;
+
         healtSlider.value = 0;
 
         Animator gameOverAnimator = gameOverScreen.GetComponent<Animator>();
         gameOverAnimator.SetTrigger("GameOver");
+      
         resetGameMenager.restartGame();
+        
 
+    }
+
+    public void WinGame ()
+    {
+     
+       
+        //resetGameMenager.restartGame();
+        Animator winGameAnimator = winGameScreen.GetComponent<Animator>();
+        winGameAnimator.SetTrigger("GameOver");
+        StartCoroutine(NextLevel());
+ 
+    }
+
+    public IEnumerator NextLevel() {
+        currentHealth = 100000;
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Destroy(gameObject);
     }
 }

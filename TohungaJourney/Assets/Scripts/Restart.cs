@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Restart : MonoBehaviour
@@ -20,7 +21,8 @@ public class Restart : MonoBehaviour
     {
         if (restartNow && resetTime <= Time.time) 
         {
-            Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //Application.LoadLevel(Application.loadedLevel);
         }
     }
     public void  restartGame() {

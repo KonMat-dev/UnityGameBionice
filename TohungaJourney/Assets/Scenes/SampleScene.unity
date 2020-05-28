@@ -2184,8 +2184,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 2365407632974474486, guid: 0cae08a5ca2e45146934f1d660b16028, type: 3}
   heroHealth: 3
+  resetGameMenager: {fileID: 0}
   healtSlider: {fileID: 1251403738}
   damgeScreen: {fileID: 192871116}
+  gameOverScreen: {fileID: 0}
 --- !u!1001 &1214029055
 PrefabInstance:
   m_ObjectHideFlags: 0
