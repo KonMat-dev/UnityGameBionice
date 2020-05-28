@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\SceneTwoScrip\CodePanel.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\GaliCamera.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\GaliMove.cs" />
+    <Compile Include="Assets\Scripts\SceneTwoScrip\Meduse.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\ParticleSortLayerScript.cs" />
     <Compile Include="Assets\Scripts\WinTuraga.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -148,19 +149,19 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -364,13 +365,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>B:/NewBionicleStory/TohungaJourney/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>B:/NewBionicleStory/UnityGameBionice/TohungaJourney/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

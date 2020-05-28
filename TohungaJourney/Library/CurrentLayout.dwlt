@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 11908
+  controlID: 16899
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 11730
+  controlID: 16714
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 0
     width: 601
     height: 1092
-  m_MinSize: {x: 277, y: 298}
-  m_MaxSize: {x: 4002, y: 8048}
+  m_MinSize: {x: 277, y: 274}
+  m_MaxSize: {x: 4002, y: 8024}
   vertical: 1
-  controlID: 11909
+  controlID: 16900
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -408,9 +408,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d8eef3ff
-      m_LastClickedID: -790824
-      m_ExpandedIDs: d6fbffff5610000074110000
+      m_SelectedIDs: fa710000
+      m_LastClickedID: 29178
+      m_ExpandedIDs: 32cafffff8caffff04cbfffff4cbffffeadbffffdae1ffff06f6ffffd6fbffff4e310000ae6f000022730000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -465,9 +465,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 248.62282, y: 71.3221, z: 9.40523}
+    m_Target: {x: 406.86765, y: 429.30573, z: 3.91948}
     speed: 2
-    m_Value: {x: 248.62282, y: 71.3221, z: 9.40523}
+    m_Value: {x: 406.86765, y: 429.30573, z: 3.91948}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -499,9 +499,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 436.4952
+    m_Target: 985.0052
     speed: 2
-    m_Value: 436.4952
+    m_Value: 985.0052
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -577,20 +577,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/SceneTwoScrip
+    - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts/SceneTwoScrip
+  - Assets/Sprites
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: B:\NewBionicleStory\TohungaJourney
+  m_LastProjectPath: B:\NewBionicleStory\UnityGameBionice\TohungaJourney
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a40d0000
-    m_LastClickedID: 3492
-    m_ExpandedIDs: 00000000100a0000e00b0000d00e0000
+    m_SelectedIDs: aa0c0000
+    m_LastClickedID: 3242
+    m_ExpandedIDs: 00000000120a0000340b0000d80e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -618,7 +618,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000100a0000e00b0000d00e0000
+    m_ExpandedIDs: 00000000120a0000340b0000d80e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -662,7 +662,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 464}
     m_GridSize: 96
   m_DirectoriesAreaWidth: 115
 --- !u!114 &18
