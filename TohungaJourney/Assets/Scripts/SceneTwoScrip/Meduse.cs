@@ -4,42 +4,25 @@ using UnityEngine;
 
 public class Meduse : MonoBehaviour
 {
- 
-    private float latestDirectionChangeTime;
-    private readonly float directionChangeTime = 3f;
-    private float characterVelocity = 2f;
-    private Vector2 movementDirection;
-    private Vector2 movementPerSecond;
-    public float Xrage;
-    public float mXrage;
-    public float Yrage;
-
-
-    void Start()
-    {
-        latestDirectionChangeTime = 0f;
-        calcuateNewMovementVector();
-    }
-
-    void calcuateNewMovementVector()
-    {
-        //create a random direction vector with the magnitude of 1, later multiply it with the velocity of the enemy
-        movementDirection = new Vector2(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f)).normalized;
-        movementPerSecond = movementDirection * characterVelocity;
-    }
+    public Rigidbody2D rb;
+    public float accelerationTime = 2f;
+    public float maxSpeed = 5f;
+    private Vector2 movement;
+    private float timeLeft;
 
     void Update()
     {
-        //if the changeTime was reached, calculate a new movement vector
-        if (Time.time - latestDirectionChangeTime > directionChangeTime)
+        timeLeft -= Time.deltaTime;
+        if (timeLeft <= 0)
         {
-            latestDirectionChangeTime = Time.time;
-            calcuateNewMovementVector();
+            movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+            timeLeft += accelerationTime;
         }
-
-        //move enemy: 
-        transform.position = new Vector2(transform.position.x + (Mathf.Clamp(movementPerSecond.x * Time.deltaTime,-mXrage,Xrage)),
-         Mathf.Clamp(transform.position.y + (movementPerSecond.y * Time.deltaTime), - Yrage, Yrage));
-
     }
+
+    void FixedUpdate()
+    {
+        rb.AddForce(movement * maxSpeed);
+    }
+
 }
