@@ -9708,7 +9708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6f5163c47a9ca4fa3f034506fd4763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 7028379834873848368, guid: de244e7cdca5bcc43bb57888d0808ffb, type: 3}
+  Enemy: {fileID: 6177289497290800361, guid: 05f5acf3ac975224ebe04eca2512c8a3, type: 3}
   spawRare: 2
   nextSpawn: 0
 --- !u!4 &1230639639
