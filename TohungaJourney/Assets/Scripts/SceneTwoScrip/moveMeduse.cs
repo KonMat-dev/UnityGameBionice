@@ -5,8 +5,8 @@ using UnityEngine;
 public class moveMeduse : MonoBehaviour
 {
     private float latestDirectionChangeTime;
-    private readonly float directionChangeTime = 3f;
-    private float characterVelocity = 2f;
+    private readonly float directionChangeTime = 2f;
+    private float characterVelocity = 1f;
     private Vector2 movementDirection;
     private Vector2 movementPerSecond;
 

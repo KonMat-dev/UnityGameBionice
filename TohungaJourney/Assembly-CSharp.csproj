@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\CodePanel.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\enemyAtak.cs" />
+    <Compile Include="Assets\Scripts\SceneTwoScrip\EnemyMoveNew.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\EnemySpawn.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\GaliCamera.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\GaliHealth.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\Scripts\SceneTwoScrip\Meduse.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\moveMeduse.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\ParticleSortLayerScript.cs" />
+    <Compile Include="Assets\Scripts\SceneTwoScrip\shootSpore.cs" />
     <Compile Include="Assets\Scripts\timer.cs" />
     <Compile Include="Assets\Scripts\WinButtonControler.cs" />
     <Compile Include="Assets\Scripts\WinTuraga.cs" />
