@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class WinTuraga : MonoBehaviour
 {
-    // Start is called before the first frame update
+    DeathMenu deathMenu;
+    bool pause = false;
     void Start()
     {
         
@@ -22,6 +23,16 @@ public class WinTuraga : MonoBehaviour
         {
             PlayerHealth ph = collision.GetComponent<PlayerHealth>();
             ph.WinGame();
+
+         
+            PauseGame();
+
         }
+
+    }
+
+    private void PauseGame() 
+    {
+            Time.timeScale = 0;
     }
 }

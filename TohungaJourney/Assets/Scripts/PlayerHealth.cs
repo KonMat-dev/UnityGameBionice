@@ -9,8 +9,11 @@ public class PlayerHealth : MonoBehaviour
     public float heroHealth;
     private float currentHealth;
     PlayerControler controlMovment;
+    counterControler Count;
     public Restart resetGameMenager;
-
+    // win
+  public  GameObject codePanel;
+  public  GameObject turaga;
 
 
     // HUD
@@ -25,7 +28,8 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-
+        codePanel.SetActive(false);
+        turaga.SetActive(true);
         currentHealth = heroHealth;
         controlMovment = GetComponent<PlayerControler>();
 
@@ -41,6 +45,8 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
        // if (currentHealth <= 0) MakeDead();
         if (damged == true)
         {
@@ -74,7 +80,7 @@ public class PlayerHealth : MonoBehaviour
 
         Animator gameOverAnimator = gameOverScreen.GetComponent<Animator>();
         gameOverAnimator.SetTrigger("GameOver");
-      
+        //winGameScreen.text = Count.numberOfBox.ToString();
         resetGameMenager.restartGame();
         
 
@@ -97,4 +103,6 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Destroy(gameObject);
     }
+
+ 
 }

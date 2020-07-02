@@ -14,6 +14,11 @@ public class GaliMove : MonoBehaviour
     Animator anim;
    public GameObject codePanel, closedSafe, openedSafe;
 
+    public Transform gunTip;
+    public GameObject bullet;
+    float fireRate = 0.5f;
+    float nextFire = 0.5f;
+
     public static bool isSafeOpened = false;
 
     void Start()
@@ -43,7 +48,37 @@ public class GaliMove : MonoBehaviour
 
 
         anim.SetFloat("speed", Mathf.Abs (horizontalMove));
-        
+
+
+        // Strzelanie 
+        if (Input.GetAxisRaw("Fire1") > 0) Fire();
+
+        void Flip()
+        {
+            dirToRight = !dirToRight;
+            Vector3 heroScale = gameObject.transform.localScale;
+            heroScale.x *= -1;
+            face = heroScale.x;
+            gameObject.transform.localScale = heroScale;
+        }
+
+        void Fire()
+        {
+            if (Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
+                if (face > 0)
+                {
+                    Instantiate(bullet, gunTip.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+
+                }
+                else if (face < 0)
+                {
+                    Instantiate(bullet, gunTip.position, Quaternion.Euler(new Vector3(0, 0, 180f)));
+                }
+            }
+        }
+
 
 
         if (horizontalMove < 0 && dirToRight)
@@ -57,14 +92,6 @@ public class GaliMove : MonoBehaviour
             Flip();
         }
 
-        void Flip()
-        {
-            dirToRight = !dirToRight;
-            Vector3 heroScale = gameObject.transform.localScale;
-            heroScale.x *= -1;
-            face = heroScale.x;
-            gameObject.transform.localScale = heroScale;
-        }
 
         if (isSafeOpened)
         {
@@ -87,4 +114,7 @@ public class GaliMove : MonoBehaviour
             codePanel.SetActive(false);
         }
     }
+
+   
+
 }

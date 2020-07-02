@@ -5,8 +5,11 @@ using UnityEngine.UI;
 
 public class counterControler : MonoBehaviour
 {
-    int numberOfBox;
+     public int numberOfBox;
      public Text counterView;
+
+    public Text counterViewEND;
+
     void Start()
     {
         Reset();
@@ -16,12 +19,15 @@ public class counterControler : MonoBehaviour
     {
         numberOfBox++;
         counterView.text = numberOfBox.ToString();
+
+        counterViewEND.text = numberOfBox.ToString();
     }
 
     private void Reset()
     {
         numberOfBox = 0;
         counterView.text = numberOfBox.ToString();
+        counterViewEND.text = numberOfBox.ToString();
     }
 }
 

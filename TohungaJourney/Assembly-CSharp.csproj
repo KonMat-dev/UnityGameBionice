@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\BulletHit.cs" />
     <Compile Include="Assets\Scripts\Cleaner.cs" />
     <Compile Include="Assets\Scripts\counterControler.cs" />
+    <Compile Include="Assets\Scripts\DeathMenu.cs" />
     <Compile Include="Assets\Scripts\DestroyBullet.cs" />
     <Compile Include="Assets\Scripts\enemyDamge.cs" />
     <Compile Include="Assets\Scripts\Enemyhealth.cs" />
@@ -87,12 +88,17 @@
     <Compile Include="Assets\Scripts\ProjectileControler.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\CodePanel.cs" />
+    <Compile Include="Assets\Scripts\SceneTwoScrip\enemyAtak.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\EnemySpawn.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\GaliCamera.cs" />
+    <Compile Include="Assets\Scripts\SceneTwoScrip\GaliHealth.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\GaliMove.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\LiveTime.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\Meduse.cs" />
+    <Compile Include="Assets\Scripts\SceneTwoScrip\moveMeduse.cs" />
     <Compile Include="Assets\Scripts\SceneTwoScrip\ParticleSortLayerScript.cs" />
+    <Compile Include="Assets\Scripts\timer.cs" />
+    <Compile Include="Assets\Scripts\WinButtonControler.cs" />
     <Compile Include="Assets\Scripts\WinTuraga.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

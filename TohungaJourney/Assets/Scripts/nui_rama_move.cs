@@ -8,6 +8,7 @@ public class nui_rama_move : MonoBehaviour
     public Transform[] patrolPoint;
     public float moveSpeed;
     private int currentlyPiont;
+    bool facingRight = true;
 
     // Start is called before the fir
 
@@ -30,12 +31,19 @@ public class nui_rama_move : MonoBehaviour
             if (currentlyPiont >= patrolPoint.Length)
             {
                 currentlyPiont = 0;
-
+                
             }
-
+            flip();
         }
 
         transform.position = Vector3.MoveTowards(transform.position, patrolPoint[currentlyPiont].position, moveSpeed = Time.deltaTime);
+       
+    }
+
+    void flip() {
+
+        facingRight = !facingRight;
+        transform.Rotate(0f, 180f, 0f);
     }
 }
 

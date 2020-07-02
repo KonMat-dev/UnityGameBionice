@@ -15,6 +15,10 @@ public class PlayerControler : MonoBehaviour
     Rigidbody2D rgBody;
     bool dirToRight = true;
 
+    // wygrana 
+    public GameObject codePanel;
+    public GameObject turaga;
+
 
     // Strzelanie 
 
@@ -82,5 +86,11 @@ public class PlayerControler : MonoBehaviour
         }
         }
     }
-   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name.Equals("turaga"))
+        {
+            codePanel.SetActive(true);
+        }
+    }
 }
