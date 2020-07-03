@@ -73,8 +73,5 @@ public class EnemyMoveNew : MonoBehaviour
             enemyRB.velocity  = new Vector2(0f,0f);
         }
     }
-   
-        
-    
 
 }

@@ -33,10 +33,10 @@ public class enemyAtak : MonoBehaviour
 
     void pushBack(Transform pushedObject) 
     {
-       Vector2 pushDirector = new Vector2(0, (pushedObject.position.y - transform.position.y)).normalized;
-       pushDirector *= forceAddToPlayer;
-      Rigidbody2D pushRb = pushedObject.gameObject.GetComponent<Rigidbody2D>();
-       pushRb.velocity = Vector2.zero;
+       Vector2 pushDirector = new Vector2(0, (pushedObject.position.y - transform.position.y));
+        pushDirector *= forceAddToPlayer;
+        Rigidbody2D pushRb = pushedObject.gameObject.GetComponent<Rigidbody2D>();
+        pushRb.velocity = Vector2.zero;
         pushRb.AddForce(pushDirector, ForceMode2D.Impulse);
    }
 }

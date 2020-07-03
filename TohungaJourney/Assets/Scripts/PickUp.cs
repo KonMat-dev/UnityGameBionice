@@ -17,7 +17,7 @@ public class PickUp : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Hero") 
+        if (collision.gameObject.name == "Hero" || collision.gameObject.tag == "Player") 
         {
             counterControler.IncrementCounter();
             Destroy(this.gameObject);

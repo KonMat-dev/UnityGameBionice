@@ -11,11 +11,16 @@ public class shootSpore : MonoBehaviour
 
     void Start()
     {
-        
+        nextShootTime = 0f;
     }
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
         
     }
