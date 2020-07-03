@@ -11,13 +11,15 @@ public class GaliHealth : MonoBehaviour
     private float currentHealth;
     GaliMove controlMovment;
     counterControler Count;
-  
 
-
+    public Restart restart;
+ 
 
     // HUD
     public Slider healtSlider;
     public Image damgeScreen;
+    public Text gameOver;
+    public Text gameWin;
 
     bool damged = false;
     Color damageColor = new Color(0f, 0f, 0f, 0.5f);
@@ -70,12 +72,27 @@ public class GaliHealth : MonoBehaviour
 
     public void MakeDead()
     {
-        Instantiate(deathFX, transform.position, transform.rotation);
-        Destroy(gameObject);
         damgeScreen.color = damageColor;
+        Instantiate(deathFX, transform.position, transform.rotation);
 
+        Destroy(gameObject);
+        Animator gameOverAnimator = gameOver.GetComponent<Animator>();
+        gameOverAnimator.SetTrigger("gameOverTrriger");
+
+
+        restart.restartGame();
         healtSlider.value = 0;
-
+      
 
     }
+
+    public void WinGame() 
+    {
+        Animator winGameAnimator = gameWin.GetComponent<Animator>();
+        winGameAnimator.SetTrigger("gameOverTrriger");
+        Destroy(gameObject);
+        restart.restartGame();
+    
+    }
+    
 }

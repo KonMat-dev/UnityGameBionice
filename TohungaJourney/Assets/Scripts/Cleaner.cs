@@ -22,6 +22,7 @@ public class Cleaner : MonoBehaviour
         {
             PlayerHealth playerFell = collision.GetComponent<PlayerHealth>();
             playerFell.MakeDead();
+
         }
         else Destroy(collision.gameObject);
     }

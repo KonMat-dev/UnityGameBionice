@@ -13,6 +13,10 @@ public class GaliMove : MonoBehaviour
     bool dirToRight = true;
     Animator anim;
    public GameObject codePanel, closedSafe, openedSafe;
+    public GameObject codePanelWin;
+    public GameObject turaga;
+
+
 
     public Transform gunTip;
     public GameObject bullet;
@@ -28,6 +32,7 @@ public class GaliMove : MonoBehaviour
         codePanel.SetActive(false);
         closedSafe.SetActive(true);
         openedSafe.SetActive(false);
+        codePanelWin.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -35,6 +40,11 @@ public class GaliMove : MonoBehaviour
         if (col.gameObject.name.Equals("Door") && !isSafeOpened)
         {
             codePanel.SetActive(true);
+        }
+
+        if (col.gameObject.name.Equals("turaga"))
+        {
+            codePanelWin.SetActive(true);
         }
     }
 
