@@ -27,8 +27,30 @@ public class WinButtonControler : MonoBehaviour
     public void ReloadLevel()
     {
 
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
+    }
+
+    public void PreviousLevel()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        Time.timeScale = 1;
+    }
+    public void Menu()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        Time.timeScale = 1;
+    }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+    }
+    public void Menulevel1()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         Time.timeScale = 1;
     }
 }

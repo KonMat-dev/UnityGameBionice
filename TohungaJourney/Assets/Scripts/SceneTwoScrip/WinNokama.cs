@@ -25,7 +25,7 @@ public class WinNokama : MonoBehaviour
             ph.WinGame();
 
 
-        //    PauseGame();
+            PauseGame();
 
         }
 
