@@ -38,7 +38,6 @@ public class Enemyhealth : MonoBehaviour
 
     void MakeDead() 
     {
-        //showTuraga.SetActive(true);
         Destroy(gameObject);
         Instantiate(deathFX, transform.position ,transform.rotation);
     }

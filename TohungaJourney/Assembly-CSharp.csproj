@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\nui_rama.cs" />
     <Compile Include="Assets\Scripts\nui_rama_move.cs" />
     <Compile Include="Assets\Scripts\Paralax.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerControler.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
